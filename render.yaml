@@ -1,0 +1,4 @@
+routes:
+  - type: rewrite
+    source: /.* # This catches all paths
+    destination: / # This sends them to index.html
